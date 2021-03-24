@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="lightandsoundgame_walkthrough.gif" width=600><br>
+<img src="lightandsoundgame_walkthrough.gif" width=800><br>
 
 
 ## Reflection Questions
