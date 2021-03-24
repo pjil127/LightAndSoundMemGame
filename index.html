@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>LIGHT AND SOUND MEMORY GAME</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+ 
+    <style>
+      div.a {
+        font-size: 23px;
+        font-style: italic;
+        position: absolute;
+        top: 5%;
+        right: 0.5%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+      }
+      
+       div.b {
+        font-size: 10px;
+        position: absolute;
+        top: 13%;
+          right: 0.3%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+      }
+
+    </style>
+    
+  </head>  
+  <body>
+    
+    <div class="a">
+    <h1>LIGHT AND SOUND MEMORY GAME</h1>
+    </div>
+    
+    <div class = "b">
+        <p>
+      Let us play a memory game. Repeat the buttons that I play.
+    </p>
+    </div>
+  
+    
+    <div id="startAndStop">
+        <button id="startBtn" onclick="startGame()">Start</button>
+        <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+      </div>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      </div>
+
+  </body>
+</html>

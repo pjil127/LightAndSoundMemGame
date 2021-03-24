@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: arial, arial, sans-serif;
+  margin: 2em;
+  background-color: black;
+  color: white; 
+}
+
+h1 {
+  font-style: bold;
+  color: 	#FFFFFF;
+  font-family: verdana, arial, sans-serif; 
+}
+
+#gameButtonArea > button {
+  padding: 100px;
+  display: inline-block;
+  border-radius: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+#startAndStop > button {
+  padding: 40px;
+  border-radius: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: verdana, arial, sans-serif; 
+  font-size: 20px;
+}
+
+#button1 {
+    position: absolute;
+    top: 170px;
+    left: 560px;
+    background: 	green;
+    z-index: -1;
+}
+
+#button2 {
+     position: absolute;
+     top: 170px;
+     right: 560px;
+     background: red;
+     z-index: -1;
+}
+#button3 {
+    position: absolute;
+    bottom: 170px;
+    left: 560px;
+    background: blue;
+    z-index: -1;
+}
+#button4 {
+    position: absolute;
+    bottom: 170px;
+    right: 560px;
+    background: yellow;
+    z-index: -1;
+}
+
+#button1:active, #button1.lit {
+    background: 	lightgreen;
+}
+
+#button2:active, #button2.lit {
+    background: lightcoral;
+}
+#button3:active, #button3.lit {
+    background: lightblue;
+}
+#button4:active, #button4.lit {
+    background: lemonchiffon;
+}
