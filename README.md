@@ -39,7 +39,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src="lightandsoundgame_walkthrough.gif" width=250><br>
+
+<img src="lightandsoundgame_walkthrough.gif" width=600><br>
 
 
 ## Reflection Questions
